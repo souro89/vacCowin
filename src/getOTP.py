@@ -10,8 +10,8 @@ import re
 #
 # ------------------------------------------------
 ORG_EMAIL = "@gmail.com"
-FROM_EMAIL = "souro89" + ORG_EMAIL
-FROM_PWD = "souro1989"
+FROM_EMAIL = "" + ORG_EMAIL
+FROM_PWD = ""
 SMTP_SERVER = "imap.gmail.com"
 SMTP_PORT = 993
 

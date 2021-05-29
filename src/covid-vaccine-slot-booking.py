@@ -29,7 +29,7 @@ def main():
         if args.token:
             token = args.token
         else:
-            mobile = '9830456736'
+            mobile = ''
             token = generate_token_OTP(mobile, base_request_header)
 
         request_header = copy.deepcopy(base_request_header)
